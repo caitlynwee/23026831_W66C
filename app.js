@@ -26,10 +26,10 @@ const upload = multer({ storage:storage });
 
 // establish a connetion to the database using mysql
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'moodTracker'
+  host: 'mysql-caitlyn.alwaysdata.net',
+  user: 'caitlyn',
+  password: 'Wannaonecw6800',
+  database: 'caitlyn_moodtracker'
 });
 
 connection.connect((err) => {
